@@ -1,0 +1,16 @@
+package dev.raj.bookmyshow;
+
+import Models.BaseModel;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BookmyshowApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(BookmyshowApplication.class, args);
+        BaseModel bb1 = new BaseModel();
+
+    }
+
+}
